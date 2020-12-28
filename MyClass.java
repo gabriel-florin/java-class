@@ -76,6 +76,8 @@ public void arataCaractere() {
         String linia = scanner.nextLine();
 
         System.out.println("Printeaza caracterul la "+linia.charAt(1));
+        //ceva nu e in regula aici dar remediem pe parcurs!!!
+        
 
 
 }
