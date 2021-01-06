@@ -47,4 +47,25 @@ public class Persoana {
    public void showChars(){
        System.out.println("Persoana definita se numeste " + this.nume+this.prenume + " si este in varsta de " +this.varsta+"de ani");
    }
-}
+
+    public static void Program(String nume,String prenume,int varsta) {
+
+       if (varsta<25){
+           System.out.println("This person is going to the mall");
+       }
+       else if (varsta>25&varsta<30){
+           System.out.println("This person is gone party tonight");
+       }
+       else if (varsta>30&varsta<40){
+           System.out.println("This person is going to the theatre");
+       }
+       else if (varsta>40){
+            System.out.println("Is gone stay home tonight");
+        }
+       else
+           System.out.println("Varsta nu exista");
+
+   }
+
+    }
+

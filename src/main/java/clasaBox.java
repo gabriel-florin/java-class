@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class clasaBox {
@@ -25,11 +26,13 @@ public clasaBox(double id,int lungime,int latime,int inaltime){
 public static void volumulBox(){
 
     System.out.println("Generati datele cutiei Box");
-    Scanner sc=new Scanner(System.in);
-   double  id=Math.random()*6+1;
-    int latime=sc.nextInt();
-    int inaltime=sc.nextInt();
-    int lungime=sc.nextInt();
+
+    Random random=new Random();
+    int id=random.nextInt(999);
+    int x=random.nextInt(5);
+    int latime=random.nextInt(5);
+    int inaltime=random.nextInt(5);
+    int lungime=random.nextInt(5);
      int  volumul=latime*lungime*inaltime;
     System.out.println("Avem cutia cu numarul " + id +" iar volumul cutiei este "+volumul);
 }

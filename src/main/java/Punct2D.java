@@ -10,14 +10,12 @@ public class Punct2D {
     private static float coordonate2;
 
 
-    public Punct2D(float coordonate1, float coordonate2) {
+    public Punct2D() {
         System.out.println("Constructorul clasei Punct2D");
 
-        this.coordonate1 = 0f;
-        this.coordonate2 = 0f;
+        this.coordonate1 = 3.8f;
+        this.coordonate2 = 0.4f;
         // this.c = a + b;
-
-
     }
 
     public void setCoordonate1(float coordonate1) {
@@ -64,32 +62,26 @@ public class Punct2D {
 
         }
 */
-        public static void modificaCoordonate() {
+        public void modificaCoordonate() {
            ;
           //  this.coordonate1 = coordonate1;
             //this.coordonate2 = coordonate2;
             // this.c = a + b;
 
-
             Scanner scanner = new Scanner(System.in);
             System.out.println("Introduceti cele doua puncte ");
 
             try {
-
-
                 float latitudine = scanner.nextFloat();
-
-
                 float longitudine = scanner.nextFloat();
 
-
                 if (latitudine != 0) {
-                    latitudine = coordonate1 + latitudine;
+                    latitudine += this.getCoordonate1();
                     System.out.println("Latitudinea este " + latitudine);
 
                 }
                 if (longitudine != 0) {
-                    longitudine = coordonate2 + longitudine;
+                    longitudine += coordonate2 ;
                     System.out.println("Longitudinea este " + longitudine);
                 } else
                     System.out.println("Numerele introduse nu sunt reale");
