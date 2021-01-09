@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b4342f1-bbcc-408f-8341-0e9e8d315e0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ead6b699121423" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Persoana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Persoana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Punct2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Punct2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/clasaBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clasaBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/test/java/ah.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/java/ah.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Persoana.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persoana.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Punct2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ah.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/clasaBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clasaBox.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,21 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/java/ah.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="340">
+              <caret line="99" column="1" lean-forward="true" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2201#2202#0" expanded="true" />
-                <element signature="e#2268#2269#0" expanded="true" />
+                <element signature="e#2640#2641#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -117,8 +106,8 @@
         <option value="$PROJECT_DIR$/src/main/java/clasaBox.java" />
         <option value="$PROJECT_DIR$/src/main/java/Persoana.java" />
         <option value="$PROJECT_DIR$/src/main/java/Punct2D.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/java/ah.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/test/java/ah.java" />
       </list>
     </option>
   </component>
@@ -220,7 +209,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1727672" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1727672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -229,7 +218,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49633968" visible="true" weight="0.328594" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49633968" visible="true" weight="0.328594" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49853587" weight="0.39968404" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -327,22 +316,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/java/ah.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2201#2202#0" expanded="true" />
-            <element signature="e#2268#2269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/java/ah.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="99" column="1" lean-forward="true" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2640#2641#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

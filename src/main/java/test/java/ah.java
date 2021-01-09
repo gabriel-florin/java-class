@@ -12,6 +12,13 @@ public class ah {
         Date today = new Date();
         arataData(today);
 
+        //scrie o functie care gaseste minimul si maximul dintr-o multime de numere
+        int array[]=new int[]{5,41,2,12,43,23,-5,-86,0,-19,9,32};
+
+        int max=getMax(array);
+        int min=getMin(array);
+        System.out.println("Valoarea maxima este "+max+" iar valoarea minima este " + min);
+
         //program care determina lungimea unui string
         lungime();
 
@@ -71,7 +78,26 @@ public class ah {
         String cuvant = scanner.nextLine();
         System.out.println("Lungimea cuvantului este " + cuvant.length());
         return;
-}}
+}
+
+    public static int getMax(int[] inputArray){
+        int maxValue=inputArray[0];
+        for (int i=1;i<inputArray.length;i++){
+            if (inputArray[i]>maxValue){
+                maxValue=inputArray[i];
+            }}
+        return maxValue;
+}
+     public static int getMin(int[] inputArray){
+        int minValue=inputArray[0];
+        for (int i=1;i<inputArray.length;i++){
+            if (inputArray[i]<minValue){
+                minValue=inputArray[i];
+            }
+        }
+        return minValue;
+    }
+}
 
 
 
