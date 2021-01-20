@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -35,5 +36,7 @@ public static void volumulBox(){
     int lungime=random.nextInt(5);
      int  volumul=latime*lungime*inaltime;
     System.out.println("Avem cutia cu numarul " + id +" iar volumul cutiei este "+volumul);
+
 }
+
 }
